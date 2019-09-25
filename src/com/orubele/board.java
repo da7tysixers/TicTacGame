@@ -2,41 +2,53 @@ package com.orubele;
 
 public class board {
     // Creating variables for the board
-    private int columnSize = 0;
-    private int rowSize = 0;
-    private String board [][];
+    private int columnSize;
+    private int rowSize;
+    private String board[][];
 
-    public board (int columnSize, int rowSize) {
+    public board(int columnSize, int rowSize) {
         this.columnSize = columnSize;
         this.rowSize = rowSize;
 
-
     }
 
-    public void createBoard(){
+
+    public void createBoard() {
         System.out.println("I have created the board but it is empty");
 
     }
 
-    public void getRowSize() {
+    public int getRowSize() {
         return this.rowSize;
 
     }
 
-    public  void  getColumnSize() {
-        return  columnSize;
+    public int getColumnSize() {
+        return this.columnSize;
     }
 
 
-    public void setBoard() {
-
+    public void setRowSize(int rowSize) {
+        this.rowSize = rowSize;
 
     }
 
-    public String boardPlay(String boardInput [][]) {
-        boardInput = new String [this.columnSize][this.rowSize];
+    public void setColumnSize(int columnSize) {
+        this.columnSize = columnSize;
+    }
 
-        return boardInput;
+
+    public String[][] getBoard() {
+
+        return board;
+
+    }
+
+
+    public void setBoard(String[][] board) {
+
+        this.board = board;
+
     }
 
 
