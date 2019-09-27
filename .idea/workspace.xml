@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f5c50544-1973-430d-a3df-638e1d3e6894" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/out/production/tickTackGame/com/orubele/board.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/tickTackGame/com/orubele/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/tickTackGame/com/orubele/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/tickTackGame/com/orubele/printClass.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/orubele/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/orubele/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/orubele/board.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/orubele/board.java" afterDir="false" />
     </list>
@@ -152,7 +155,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49858356" visible="true" weight="0.08255033" />
